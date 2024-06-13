@@ -1,0 +1,69 @@
+@media screen and (max-width: 991px){
+
+    .topber ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .topber ul li{
+        margin: 10px;
+    }
+    .misson-img img{
+        margin-top: 30px;
+    }
+    .contact-info{
+        margin-bottom: 30px;
+    }
+    .nav-item{
+        margin-left: 0!important;
+        margin-top: 15px;
+       
+    }
+    .active-menu{
+        border: none;
+    }
+  
+}
+@media screen and (max-width: 770px){
+
+    .topber ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .topber ul li{
+        margin: 10px;
+    }
+    .hero h1{
+        font-size: 45px;
+    }
+    .hero {
+        height: 55vh;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .mission-box h2 {
+        font-size: 30px;
+    }
+    .misson-text p {
+        font-size: 25px;
+        font-weight: 400;
+        color: #000000;
+    }
+    .footer-menu{
+        flex-direction: column;
+    }
+    .footer-menu h2{
+        margin-top: 20px;
+    }
+    .section-title h2 {
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .team-box{
+        height: auto;
+    }
+    .navbar-brand img {
+        width: 115px;
+    }
+}
+
