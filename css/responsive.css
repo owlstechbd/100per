@@ -27,10 +27,12 @@
 
     .topber ul{
         flex-wrap: wrap;
+        text-align: center;
         justify-content: center;
     }
-    .topber ul li{
-        margin: 10px;
+    .topber ul li {
+        margin: 5px;
+        font-size: 14px;
     }
     .hero h1{
         font-size: 45px;
