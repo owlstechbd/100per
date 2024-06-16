@@ -96,9 +96,9 @@ p{
 	display: flex;
 	align-items: center;
 	width: 100%;
-	height: 83vh;
+	height: 75vh;
 	color: #fff;
-	background: url(../images/hero.png) center center no-repeat;
+	background: url(../images/hero2.png) center center no-repeat;
 	background-size: cover;
 }
 .hero h1{
@@ -209,6 +209,7 @@ footer{
 	margin-bottom: 30px;
 }
 
+
 .team-box h3{
 	font-size: 25px;
 }
@@ -222,7 +223,23 @@ footer{
 	text-align: left;
 }
 .team-box ul li{
+	position: relative;
+	margin-left: 13px;
 	margin-bottom: 10px
+}
+.team-box ul li::before {
+    content: '';
+    width: 6px;
+    top: 8px;
+    left: -15px;
+    height: 6px;
+    background: #000;
+    border-radius: 100%;
+    position: absolute;
+}
+.team-box ul li i{
+	font-size: 6px;
+	margin-right: 13px;
 }
 .contact-info-box{
 	margin-top: 40px;
@@ -260,4 +277,24 @@ footer{
 .im-content a{
 	color: #000;
 	border-bottom: 1px #000 solid;
+}
+
+.active-menu-footer{
+	border-bottom: 1px #fff solid;
+	display: inline-block;
+}
+.im-content ul li{
+	margin-bottom: 10px;
+	margin-left: 13px;
+	position: relative;
+}
+.im-content ul li::before{
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	top: 9px;
+    left: -15px;
+	background: #000;
+	border-radius: 100%;
 }
